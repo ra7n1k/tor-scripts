@@ -18,7 +18,7 @@ This is for requesting a new Tor circuit. You can use this by providing the Tor 
 ### HTTP Request
 File: `query.py`
 
-This is for sending a HTTP request. This supports Onion Services. You can use this by providing the Tor control password and the target URL.
+This is for sending a HTTP request (alternatives to `curl` and `wget`). This supports Onion Services. You can use this by providing the Tor control password and the target URL.
 
 ## Modules
 
