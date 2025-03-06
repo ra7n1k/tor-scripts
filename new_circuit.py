@@ -6,6 +6,7 @@ from termcolor import colored
 # import custom modules
 from modules.initialize_controller import initialize_controller
 from modules.print_status import print_status
+from modules.print_error import print_error
 
 try:
     # initialize the tor controller
@@ -19,4 +20,4 @@ try:
     print_status(controller) # print current tor daemon status
 
 except Exception as e:
-    print(colored(str(e), "red", attrs=["bold"]))
+    print_error(e)
